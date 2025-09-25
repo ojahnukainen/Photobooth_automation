@@ -15,4 +15,4 @@ sas_token = generate_container_sas(
     expiry=datetime.utcnow() + timedelta(hours=12)
 )
 
-set_key('.env','SAS_TOKEN', 'lolerones')
+set_key('.env','SAS_TOKEN', sas_token)  
